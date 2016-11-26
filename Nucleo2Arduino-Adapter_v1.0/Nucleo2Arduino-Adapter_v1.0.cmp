@@ -1,0 +1,99 @@
+Cmp-Mod V01 Created by PcbNew   date = 11/26/2016 2:38:32 AM
+
+BeginCmp
+TimeStamp = 551AF9EA
+Path = /5839337C
+Reference = P1;
+ValeurCmp = Power;
+IdModule  = Socket_Arduino_Uno:Socket_Strip_Arduino_1x08;
+EndCmp
+
+BeginCmp
+TimeStamp = 551AF9FF
+Path = /5839337D
+Reference = P2;
+ValeurCmp = Analog;
+IdModule  = Socket_Arduino_Uno:Socket_Strip_Arduino_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = 551AFA18
+Path = /5839337F
+Reference = P3;
+ValeurCmp = Digital;
+IdModule  = Socket_Arduino_Uno:Socket_Strip_Arduino_1x10;
+EndCmp
+
+BeginCmp
+TimeStamp = 551AFA2F
+Path = /5839337E
+Reference = P4;
+ValeurCmp = Digital;
+IdModule  = Socket_Arduino_Uno:Socket_Strip_Arduino_1x08;
+EndCmp
+
+BeginCmp
+TimeStamp = 5524FC3F
+Path = /58393384
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = Socket_Arduino_Uno:Arduino_1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5524FC44
+Path = /58393385
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = Socket_Arduino_Uno:Arduino_1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5524FC49
+Path = /58393386
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = Socket_Arduino_Uno:Arduino_1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 5524FC4E
+Path = /58393387
+Reference = P8;
+ValeurCmp = CONN_1;
+IdModule  = Socket_Arduino_Uno:Arduino_1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = 58393C69
+Path = /58393605
+Reference = J1;
+ValeurCmp = TI_BOOSTER_40_J1;
+IdModule  = arducleo_footprints:SIL-10;
+EndCmp
+
+BeginCmp
+TimeStamp = 58393C76
+Path = /58393606
+Reference = J2;
+ValeurCmp = TI_BOOSTER_40_J2;
+IdModule  = arducleo_footprints:SIL-10;
+EndCmp
+
+BeginCmp
+TimeStamp = 58393C83
+Path = /58393607
+Reference = J3;
+ValeurCmp = TI_BOOSTER_40_J3;
+IdModule  = arducleo_footprints:SIL-10;
+EndCmp
+
+BeginCmp
+TimeStamp = 58393C90
+Path = /58393608
+Reference = J4;
+ValeurCmp = TI_BOOSTER_40_J4;
+IdModule  = arducleo_footprints:SIL-10;
+EndCmp
+
+EndListe

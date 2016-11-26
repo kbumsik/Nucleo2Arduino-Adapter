@@ -1,0 +1,3 @@
+[submodule "Nucleo2Arduino-Adapter_v1.0/KB-KiCad-Library"]
+	path = Nucleo2Arduino-Adapter_v1.0/KB-KiCad-Library
+	url = https://github.com/kbumsik/KB-KiCad-Library
