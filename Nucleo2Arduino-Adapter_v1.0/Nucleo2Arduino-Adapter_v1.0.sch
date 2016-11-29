@@ -45,287 +45,88 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_8 P1
+L ARDUINO_POWER P1
 U 1 1 5839337C
-P 1975 2775
-F 0 "P1" V 1925 2775 60  0000 C CNN
-F 1 "Power" V 2025 2775 60  0000 C CNN
-F 2 "_Nucleo2Arduino:Socket_Strip_Arduino_1x08" H 1975 2775 60  0001 C CNN
-F 3 "" H 1975 2775 60  0000 C CNN
-	1    1975 2775
+P 1625 2525
+F 0 "P1" H 1575 3025 60  0000 C CNN
+F 1 "Power" H 1650 2025 60  0000 C CNN
+F 2 "_Nucleo2Arduino:Socket_Strip_Arduino_1x08" H 1625 2525 60  0001 C CNN
+F 3 "" H 1625 2525 60  0000 C CNN
+	1    1625 2525
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_6 P2
+L ARDUINO_ANALOG P2
 U 1 1 5839337D
-P 1975 3575
-F 0 "P2" V 1925 3575 60  0000 C CNN
-F 1 "Analog" V 2025 3575 60  0000 C CNN
-F 2 "_Nucleo2Arduino:Socket_Strip_Arduino_1x06" H 1975 3575 60  0001 C CNN
-F 3 "" H 1975 3575 60  0000 C CNN
-	1    1975 3575
+P 1725 3550
+F 0 "P2" H 1575 3950 60  0000 C CNN
+F 1 "Analog" H 1675 3150 60  0000 C CNN
+F 2 "_Nucleo2Arduino:Socket_Strip_Arduino_1x06" H 1725 3550 60  0001 C CNN
+F 3 "" H 1725 3550 60  0000 C CNN
+	1    1725 3550
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_8 P4
+L ARDUINO_IOL P4
 U 1 1 5839337E
-P 2300 3475
-F 0 "P4" V 2250 3475 60  0000 C CNN
-F 1 "Digital" V 2350 3475 60  0000 C CNN
-F 2 "_Nucleo2Arduino:Socket_Strip_Arduino_1x08" H 2300 3475 60  0001 C CNN
-F 3 "" H 2300 3475 60  0000 C CNN
-	1    2300 3475
-	-1   0    0    -1  
-$EndComp
-$Comp
-L CONN_10 P3
-U 1 1 5839337F
-P 2300 2475
-F 0 "P3" V 2250 2475 60  0000 C CNN
-F 1 "Digital" V 2350 2475 60  0000 C CNN
-F 2 "_Nucleo2Arduino:Socket_Strip_Arduino_1x10" H 2300 2475 60  0001 C CNN
-F 3 "" H 2300 2475 60  0000 C CNN
-	1    2300 2475
-	-1   0    0    -1  
-$EndComp
-Text Label 875  2625 0    60   ~ 0
-Reset
-Text Label 1175 2250 1    60   ~ 0
-Vin
-Text Label 1550 2250 1    60   ~ 0
-IOREF
-Text Label 875  3325 0    60   ~ 0
-A0
-Text Label 875  3425 0    60   ~ 0
-A1
-Text Label 875  3525 0    60   ~ 0
-A2
-Text Label 875  3625 0    60   ~ 0
-A3
-Text Label 875  3725 0    60   ~ 0
-A4(SDA)
-Text Label 875  3825 0    60   ~ 0
-A5(SCL)
-Text Label 2800 3825 0    60   ~ 0
-0(Rx)
-Text Label 2800 3625 0    60   ~ 0
-2
-Text Label 2800 3725 0    60   ~ 0
-1(Tx)
-Text Label 2800 3525 0    60   ~ 0
-3(**)
-Text Label 2800 3425 0    60   ~ 0
-4
-Text Label 2800 3325 0    60   ~ 0
-5(**)
-Text Label 2800 3225 0    60   ~ 0
-6(**)
-Text Label 2800 3125 0    60   ~ 0
-7
-Text Label 2800 2925 0    60   ~ 0
-8
-Text Label 2800 2825 0    60   ~ 0
-9(**)
-Text Label 2800 2725 0    60   ~ 0
-10(**/SS)
-Text Label 2800 2625 0    60   ~ 0
-11(**/MOSI)
-Text Label 2800 2525 0    60   ~ 0
-12(MISO)
-Text Label 2800 2425 0    60   ~ 0
-13(SCK)
-Text Label 2875 2225 0    60   ~ 0
-AREF
-$Comp
-L GND #PWR01
-U 1 1 58393380
-P 2725 4000
-F 0 "#PWR01" H 2725 4000 30  0001 C CNN
-F 1 "GND" H 2725 3930 30  0001 C CNN
-F 2 "" H 2725 4000 60  0000 C CNN
-F 3 "" H 2725 4000 60  0000 C CNN
-	1    2725 4000
+P 2675 3475
+F 0 "P4" H 2275 3975 60  0000 C CNN
+F 1 "Digital" H 2350 2975 60  0000 C CNN
+F 2 "_Nucleo2Arduino:Socket_Strip_Arduino_1x08" H 2675 3475 60  0001 C CNN
+F 3 "" H 2675 3475 60  0000 C CNN
+	1    2675 3475
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR02
-U 1 1 58393381
-P 1550 4000
-F 0 "#PWR02" H 1550 4000 30  0001 C CNN
-F 1 "GND" H 1550 3930 30  0001 C CNN
-F 2 "" H 1550 4000 60  0000 C CNN
-F 3 "" H 1550 4000 60  0000 C CNN
-	1    1550 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR03
-U 1 1 58393382
-P 1300 2250
-F 0 "#PWR03" H 1300 2340 20  0001 C CNN
-F 1 "+5V" H 1300 2340 30  0000 C CNN
-F 2 "" H 1300 2250 60  0000 C CNN
-F 3 "" H 1300 2250 60  0000 C CNN
-	1    1300 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR04
-U 1 1 58393383
-P 1425 2250
-F 0 "#PWR04" H 1425 2210 30  0001 C CNN
-F 1 "+3.3V" H 1425 2360 30  0000 C CNN
-F 2 "" H 1425 2250 60  0000 C CNN
-F 3 "" H 1425 2250 60  0000 C CNN
-	1    1425 2250
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1625 2425
-Text Label 2800 2125 0    60   ~ 0
-A4(SDA)
-Text Label 2800 2025 0    60   ~ 0
-A5(SCL)
 $Comp
 L CONN_1 P5
 U 1 1 58393384
-P 3125 1550
-F 0 "P5" H 3205 1550 40  0000 L CNN
-F 1 "CONN_1" H 3125 1605 30  0001 C CNN
-F 2 "_Nucleo2Arduino:Arduino_1pin" H 3125 1550 60  0001 C CNN
-F 3 "" H 3125 1550 60  0000 C CNN
-	1    3125 1550
+P 2275 1125
+F 0 "P5" H 2355 1125 40  0000 L CNN
+F 1 "CONN_1" H 2275 1180 30  0001 C CNN
+F 2 "_Nucleo2Arduino:Arduino_1pin" H 2275 1125 60  0001 C CNN
+F 3 "" H 2275 1125 60  0000 C CNN
+	1    2275 1125
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_1 P6
 U 1 1 58393385
-P 3200 1550
-F 0 "P6" H 3280 1550 40  0000 L CNN
-F 1 "CONN_1" H 3200 1605 30  0001 C CNN
-F 2 "_Nucleo2Arduino:Arduino_1pin" H 3200 1550 60  0001 C CNN
-F 3 "" H 3200 1550 60  0000 C CNN
-	1    3200 1550
+P 2350 1125
+F 0 "P6" H 2430 1125 40  0000 L CNN
+F 1 "CONN_1" H 2350 1180 30  0001 C CNN
+F 2 "_Nucleo2Arduino:Arduino_1pin" H 2350 1125 60  0001 C CNN
+F 3 "" H 2350 1125 60  0000 C CNN
+	1    2350 1125
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_1 P7
 U 1 1 58393386
-P 3275 1550
-F 0 "P7" H 3355 1550 40  0000 L CNN
-F 1 "CONN_1" H 3275 1605 30  0001 C CNN
-F 2 "_Nucleo2Arduino:Arduino_1pin" H 3275 1550 60  0001 C CNN
-F 3 "" H 3275 1550 60  0000 C CNN
-	1    3275 1550
+P 2425 1125
+F 0 "P7" H 2505 1125 40  0000 L CNN
+F 1 "CONN_1" H 2425 1180 30  0001 C CNN
+F 2 "_Nucleo2Arduino:Arduino_1pin" H 2425 1125 60  0001 C CNN
+F 3 "" H 2425 1125 60  0000 C CNN
+	1    2425 1125
 	0    -1   -1   0   
 $EndComp
 $Comp
 L CONN_1 P8
 U 1 1 58393387
-P 3350 1550
-F 0 "P8" H 3430 1550 40  0000 L CNN
-F 1 "CONN_1" H 3350 1605 30  0001 C CNN
-F 2 "_Nucleo2Arduino:Arduino_1pin" H 3350 1550 60  0001 C CNN
-F 3 "" H 3350 1550 60  0000 C CNN
-	1    3350 1550
+P 2500 1125
+F 0 "P8" H 2580 1125 40  0000 L CNN
+F 1 "CONN_1" H 2500 1180 30  0001 C CNN
+F 2 "_Nucleo2Arduino:Arduino_1pin" H 2500 1125 60  0001 C CNN
+F 3 "" H 2500 1125 60  0000 C CNN
+	1    2500 1125
 	0    -1   -1   0   
 $EndComp
-Text Notes 3125 1825 0    60   ~ 0
+Text Notes 2275 1400 0    60   ~ 0
 Holes
-NoConn ~ 3125 1700
-NoConn ~ 3200 1700
-NoConn ~ 3275 1700
-NoConn ~ 3350 1700
-Wire Wire Line
-	850  3325 1625 3325
-Wire Wire Line
-	850  3425 1625 3425
-Wire Wire Line
-	850  3525 1625 3525
-Wire Wire Line
-	850  3625 1625 3625
-Wire Wire Line
-	850  3725 1625 3725
-Wire Wire Line
-	850  3825 1625 3825
-Wire Wire Line
-	2650 2925 3375 2925
-Wire Wire Line
-	2650 2825 3375 2825
-Wire Wire Line
-	2650 2725 3375 2725
-Wire Wire Line
-	2650 2625 3375 2625
-Wire Wire Line
-	2650 2525 3375 2525
-Wire Wire Line
-	2650 2425 3375 2425
-Wire Wire Line
-	2650 2225 3375 2225
-Wire Wire Line
-	2650 2125 3375 2125
-Wire Wire Line
-	2650 2025 3375 2025
-Wire Wire Line
-	1425 2725 1625 2725
-Wire Wire Line
-	1300 2825 1625 2825
-Wire Wire Line
-	1550 2925 1550 3025
-Wire Wire Line
-	1550 3025 1550 4000
-Wire Wire Line
-	850  2625 1625 2625
-Wire Wire Line
-	2725 2325 2725 4000
-Wire Wire Line
-	2725 2325 2650 2325
-Wire Wire Line
-	2650 3325 3375 3325
-Wire Wire Line
-	2650 3225 3375 3225
-Wire Wire Line
-	2650 3125 3375 3125
-Wire Wire Line
-	2650 3625 3375 3625
-Wire Wire Line
-	2650 3525 3375 3525
-Wire Wire Line
-	2650 3425 3375 3425
-Wire Wire Line
-	2650 3825 3375 3825
-Wire Wire Line
-	2650 3725 3375 3725
-Wire Wire Line
-	1425 2725 1425 2250
-Wire Wire Line
-	1550 2250 1550 2525
-Wire Wire Line
-	1550 2525 1625 2525
-Wire Wire Line
-	1300 2250 1300 2825
-Wire Wire Line
-	1175 2250 1175 3125
-Wire Wire Line
-	1175 3125 1625 3125
-Wire Wire Line
-	1550 2925 1625 2925
-Wire Wire Line
-	1625 3025 1550 3025
-Connection ~ 1550 3025
-Wire Notes Line
-	3475 1875 3025 1875
-Wire Notes Line
-	3025 1875 3025 1375
-Wire Notes Line
-	3475 4125 775  4125
-Wire Notes Line
-	775  4125 775  1375
-Wire Notes Line
-	775  1725 2175 1725
-Text Notes 800  1650 0    60   ~ 0
-Shield for Arduino that uses\nthe same pin disposition\nlike "Uno" board Rev 3.
-Wire Notes Line
-	2175 1725 2175 1375
+NoConn ~ 2275 1275
+NoConn ~ 2350 1275
+NoConn ~ 2425 1275
+NoConn ~ 2500 1275
 $Comp
 L Ti_Booster_40_J1 J1
 U 1 1 58393605
@@ -412,6 +213,28 @@ F 1 "+5V" H 9150 4140 50  0000 C CNN
 F 2 "" H 9150 4000 50  0000 C CNN
 F 3 "" H 9150 4000 50  0000 C CNN
 	1    9150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ARDUINO_ICSP U?
+U 1 1 583D837D
+P 2100 4475
+F 0 "U?" H 1850 4775 60  0000 C CNN
+F 1 "ARDUINO_ICSP" H 2100 4175 60  0000 C CNN
+F 2 "" H 2100 4475 60  0000 C CNN
+F 3 "" H 2100 4475 60  0000 C CNN
+	1    2100 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L ARDUINO_IOH P3
+U 1 1 5839337F
+P 2625 2200
+F 0 "P3" H 2275 2750 60  0000 C CNN
+F 1 "Digital" H 2350 1550 60  0000 C CNN
+F 2 "_Nucleo2Arduino:Socket_Strip_Arduino_1x10" H 2625 2200 60  0001 C CNN
+F 3 "" H 2625 2200 60  0000 C CNN
+	1    2625 2200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
