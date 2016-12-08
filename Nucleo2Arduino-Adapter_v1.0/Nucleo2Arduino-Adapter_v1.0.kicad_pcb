@@ -3,7 +3,7 @@
   (general
     (links 94)
     (no_connects 0)
-    (area 174.422999 115.495069 273.067001 188.018524)
+    (area 192.203069 115.495069 266.012931 186.764931)
     (thickness 1.6)
     (drawings 45)
     (tracks 771)
@@ -26,8 +26,8 @@
     (35 F.Paste user)
     (36 B.SilkS user)
     (37 F.SilkS user)
-    (38 B.Mask user hide)
-    (39 F.Mask user hide)
+    (38 B.Mask user)
+    (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
@@ -69,7 +69,7 @@
     (grid_origin 180.848 177.8)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x01030_80000001)
+      (layerselection 0x010fc_80000001)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.150000)
