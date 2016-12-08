@@ -9,11 +9,11 @@ including:
 * TI BoosterPack (LaunchPad) 40-pin
 * 2 x Atmel Xplained Pro expansion boards
 
-Image
-=====
-![schematic](Nucleo2Arduino-Adapter_v1.0.sch.svg "Schematic")
+Image (v0.5 test board)
+=======================
+![schematic](Nucleo2Arduino-Adapter_v0.5_schematic.png "Schematic")
 
-![3D_model](Nucleo2Arduino-Adapter_v1.0.png "3D Model")
+![3D_model](Nucleo2Arduino-Adapter_v0.5_3DModel.png "3D Model")
 
 Why?
 ====
