@@ -731,20 +731,19 @@
       /SPI_1_MOSI /SPI_1_SCK /SPI_1_SS /SPI_2_MISO /SPI_2_MOSI /SPI_2_SCK
       /SPI_2_SS /SPI_3_MISO /SPI_3_MOSI /SPI_3_SCK /SPI_3_SS /UART_1_RX /UART_1_TX
       /UART_2_RX /UART_2_TX /UART_6_RX /UART_6_TX GND "Net-(CN10-Pad1)" "Net-(CN10-Pad10)"
-      "Net-(CN10-Pad11)" "Net-(CN10-Pad18)" "Net-(CN10-Pad21)" "Net-(CN10-Pad23)"
-      "Net-(CN10-Pad25)" "Net-(CN10-Pad27)" "Net-(CN10-Pad29)" "Net-(CN10-Pad31)"
-      "Net-(CN10-Pad32)" "Net-(CN10-Pad33)" "Net-(CN10-Pad35)" "Net-(CN10-Pad36)"
-      "Net-(CN10-Pad37)" "Net-(CN10-Pad38)" "Net-(CN10-Pad7)" "Net-(CN10-Pad8)"
-      "Net-(CN10-Pad9)" "Net-(CN7-Pad10)" "Net-(CN7-Pad11)" "Net-(CN7-Pad12)"
-      "Net-(CN7-Pad13)" "Net-(CN7-Pad14)" "Net-(CN7-Pad15)" "Net-(CN7-Pad16)"
-      "Net-(CN7-Pad18)" "Net-(CN7-Pad20)" "Net-(CN7-Pad22)" "Net-(CN7-Pad23)"
-      "Net-(CN7-Pad24)" "Net-(CN7-Pad25)" "Net-(CN7-Pad26)" "Net-(CN7-Pad27)"
-      "Net-(CN7-Pad28)" "Net-(CN7-Pad29)" "Net-(CN7-Pad30)" "Net-(CN7-Pad31)"
-      "Net-(CN7-Pad32)" "Net-(CN7-Pad33)" "Net-(CN7-Pad34)" "Net-(CN7-Pad36)"
-      "Net-(CN7-Pad38)" "Net-(CN7-Pad6)" "Net-(CN7-Pad7)" "Net-(CN7-Pad8)"
-      "Net-(CN7-Pad9)" "Net-(P1-Pad1)" "Net-(P1-Pad2)" "Net-(P3-Pad3)" "Net-(P5-Pad1)"
-      "Net-(P6-Pad1)" "Net-(P7-Pad1)" "Net-(P8-Pad1)" "Net-(X1-Pad1)" "Net-(X2-Pad1)"
-      VDD
+      "Net-(CN10-Pad11)" "Net-(CN10-Pad18)" "Net-(CN10-Pad23)" "Net-(CN10-Pad25)"
+      "Net-(CN10-Pad27)" "Net-(CN10-Pad29)" "Net-(CN10-Pad31)" "Net-(CN10-Pad32)"
+      "Net-(CN10-Pad35)" "Net-(CN10-Pad36)" "Net-(CN10-Pad37)" "Net-(CN10-Pad38)"
+      "Net-(CN10-Pad7)" "Net-(CN10-Pad8)" "Net-(CN10-Pad9)" "Net-(CN7-Pad10)"
+      "Net-(CN7-Pad11)" "Net-(CN7-Pad12)" "Net-(CN7-Pad13)" "Net-(CN7-Pad14)"
+      "Net-(CN7-Pad15)" "Net-(CN7-Pad16)" "Net-(CN7-Pad18)" "Net-(CN7-Pad20)"
+      "Net-(CN7-Pad22)" "Net-(CN7-Pad23)" "Net-(CN7-Pad24)" "Net-(CN7-Pad25)"
+      "Net-(CN7-Pad26)" "Net-(CN7-Pad27)" "Net-(CN7-Pad28)" "Net-(CN7-Pad29)"
+      "Net-(CN7-Pad30)" "Net-(CN7-Pad31)" "Net-(CN7-Pad32)" "Net-(CN7-Pad33)"
+      "Net-(CN7-Pad34)" "Net-(CN7-Pad36)" "Net-(CN7-Pad38)" "Net-(CN7-Pad6)"
+      "Net-(CN7-Pad7)" "Net-(CN7-Pad8)" "Net-(CN7-Pad9)" "Net-(P1-Pad1)" "Net-(P1-Pad2)"
+      "Net-(P3-Pad3)" "Net-(P5-Pad1)" "Net-(P6-Pad1)" "Net-(P7-Pad1)" "Net-(P8-Pad1)"
+      "Net-(X1-Pad1)" "Net-(X2-Pad1)" VDD
       (circuit
         (use_via Via[0-1]_889:635_um)
       )

@@ -1,0 +1,88 @@
+
+(rules PCB Nucleo2Arduino-Adapter_v1
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 5432)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 254.0)
+    (clear 254.2)
+    (clear 127.0 (type smd_to_turn_gap))
+    (clear 63.6 (type smd_smd))
+  )
+  (padstack "Via[0-1]_889:635_um"
+    (shape
+      (circle F.Cu 889.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 889.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_889:635_um" "Via[0-1]_889:635_um" default
+  )
+  (via 
+    "Via[0-1]_889:635_um-kicad_default" "Via[0-1]_889:635_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_889:635_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_889:635_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    +5V GND "Net-(P5-Pad1)" "Net-(P6-Pad1)" "Net-(P7-Pad1)" "Net-(P8-Pad1)" "Net-(P1-Pad1)" +3V3
+    "Net-(P1-Pad2)" /RESET VDD "Net-(P3-Pad3)" "/SPI_0_SCK" "/AIn_0_0" "/AIn_0_1" "/AIn_0_2"
+    "/AIn_0_3" "/AIn_0_4" "/AIn_0_5" "/PWM_0_2" "/PWM_0_3" "/PWM_0_4" "Net-(CN7-Pad6)" "Net-(CN7-Pad7)"
+    "Net-(CN7-Pad8)" "Net-(CN7-Pad9)" "Net-(CN7-Pad10)" "Net-(CN7-Pad11)" "Net-(CN7-Pad12)" "Net-(CN7-Pad13)" "Net-(CN7-Pad14)" "Net-(CN7-Pad15)"
+    "Net-(CN7-Pad16)" "Net-(CN7-Pad18)" "Net-(CN7-Pad20)" "Net-(CN7-Pad22)" "Net-(CN7-Pad23)" "Net-(CN7-Pad24)" "Net-(CN7-Pad25)" "Net-(CN7-Pad26)"
+    "Net-(CN7-Pad27)" "Net-(CN7-Pad28)" "Net-(CN7-Pad29)" "Net-(CN7-Pad30)" "Net-(CN7-Pad31)" "Net-(CN7-Pad32)" "Net-(CN7-Pad33)" "Net-(CN7-Pad34)"
+    "Net-(CN7-Pad36)" "Net-(CN7-Pad38)" "Net-(CN10-Pad7)" "Net-(CN10-Pad8)" "Net-(CN10-Pad9)" "Net-(CN10-Pad10)" "Net-(CN10-Pad18)" "Net-(CN10-Pad23)"
+    "Net-(CN10-Pad25)" "Net-(CN10-Pad29)" "Net-(CN10-Pad31)" "Net-(CN10-Pad32)" "Net-(CN10-Pad36)" "Net-(CN10-Pad38)" "/INT_0_0" "/INT_0_1"
+    "/PWM_0_5" "/SPI_1_SS" "/SPI_1_SCK" "/SPI_1_MOSI" "/SPI_1_MISO" "Net-(X1-Pad1)" "Net-(X2-Pad1)" "/SPI_3_SCK"
+    "/SPI_3_MISO" "/SPI_3_MOSI" "/I2C_1_SCL" "/UART_6_TX" "/I2C_1_SDA" "/UART_6_RX" "/SPI_2_MOSI" "/SPI_2_MISO"
+    "/SPI_2_SCK" "/UART_2_TX" "/UART_2_RX" "/SPI_2_SS" "/SPI_3_SS" "/PWM_2_0" "/PWM_2_1" "/AIn_1_0"
+    "/AIn_1_2" "Net-(CN10-Pad1)" /GPIO1 "/AIn_1_4" "Net-(CN10-Pad11)" /GPIO0 "/PWM_1_0" "/INT_1_0"
+    "/PWM_1_1" "Net-(CN10-Pad27)" "/AIn_1_3" "Net-(CN10-Pad35)" "Net-(CN10-Pad37)" "/PWM_0_6" "/UART_1_TX" "/UART_1_RX"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
